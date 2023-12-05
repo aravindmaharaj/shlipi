@@ -1,17 +1,17 @@
-let bodyy = document.querySelector(".bodyy");
-const navbarr = document.querySelector(".navB");
-const menuBtnn = document.querySelector(".menuB");
-const cancelBtnn = document.querySelector(".cancel-btnn");
+const body = document.querySelector("body");
+const navbar = document.querySelector(".navbar");
+const menuBtn = document.querySelector(".menu-btn");
+const cancelBtn = document.querySelector(".cancel-btn");
 menuBtnn.onclick = () => {
-    navbarr.classList.add("show");
-    menuBtnn.classList.add("hide");
-    bodyy.classList.add("disabled");
+    navbar.classList.add("show");
+    menuBtn.classList.add("hide");
+    body.classList.add("disabled");
 }
 cancelBtnn.onclick = () => {
-    bodyy.classList.remove("disabled");
-    navbarr.classList.remove("show");
-    menuBtnn.classList.remove("hide");
+    body.classList.remove("disabled");
+    navbar.classList.remove("show");
+    menuBtn.classList.remove("hide");
 }
 window.onscroll = () => {
-    this.scrollY > 20 ? navbarr.classList.add("sticky") : navbarr.classList.remove("sticky");
+    this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
 }
