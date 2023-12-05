@@ -2,12 +2,12 @@ const body = document.querySelector("body");
 const navbar = document.querySelector(".navbar");
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
-menuBtnn.onclick = () => {
+menuBtn.onclick = () => {
     navbar.classList.add("show");
     menuBtn.classList.add("hide");
     body.classList.add("disabled");
 }
-cancelBtnn.onclick = () => {
+cancelBtn.onclick = () => {
     body.classList.remove("disabled");
     navbar.classList.remove("show");
     menuBtn.classList.remove("hide");
