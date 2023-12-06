@@ -23,6 +23,6 @@ setInterval(showNextImage, 4000); // Change image every 5 seconds
 
 
 /* Lightbox */
-var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+// var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
 
 
