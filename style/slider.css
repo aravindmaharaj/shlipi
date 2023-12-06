@@ -170,7 +170,7 @@ html{
 /* go to top */
 .progress-wrap {
   position: fixed;
-  right: 50px;
+  right: 24px;
   bottom: 50px;
   height: 46px;
   width: 46px;
