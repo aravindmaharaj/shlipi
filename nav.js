@@ -15,3 +15,10 @@ cancelBtn.onclick = () => {
 window.onscroll = () => {
     this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
 }
+
+// preloader js
+
+let loader = document.getElementById("preload");
+      window.addEventListener("load",function(){
+        loader.style.display =  "none";
+      })
